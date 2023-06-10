@@ -1,0 +1,13 @@
+@keyframes motion {
+  0%,
+  30% {
+    transform: translateY(180px);
+  }
+  50%,
+  85% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-180px);
+  }
+}
